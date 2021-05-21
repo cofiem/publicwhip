@@ -250,7 +250,7 @@ GEM
     mina-multistage (1.0.1)
       mina (>= 0.2.1)
     mini_mime (1.0.1)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.5.1)
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
@@ -261,8 +261,9 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (4.0.1)
     newrelic_rpm (3.18.1.330)
-    nokogiri (1.10.1)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     ntlm-http (0.1.1)
     numbers_and_words (0.10.0)
       activesupport
@@ -280,6 +281,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    racc (1.5.2)
     rack (1.6.11)
     rack-livereload (0.3.15)
       rack
