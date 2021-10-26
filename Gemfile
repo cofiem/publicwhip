@@ -60,6 +60,7 @@ gem "foundation-icons-sass-rails"
 gem "meta-tags"
 gem "numbers_and_words", "~> 0.10.0"
 gem "searchkick", "<= 1.5.1"
+gem "elasticsearch", "< 2"
 gem "typhoeus"
 gem "foreman"
 
